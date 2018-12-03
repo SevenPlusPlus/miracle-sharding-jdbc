@@ -7,7 +7,7 @@ import lombok.Data;
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
 @Data
-@ConfigurationProperties(prefix = "melot.sjdbc.config.sharding")
+@ConfigurationProperties(prefix = "miracle.sjdbc.config.sharding")
 public class SpringBootShardingRuleConfigurationCollectionProperties {
 	
 	private List<SpringBootShardingRuleConfigurationProperties> datasource;
